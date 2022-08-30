@@ -26,17 +26,3 @@ void selectionSort(int l[], int n)
     }
 }
 
-
-int main(void)
-{
-    const int n = 10;
-    int l[n] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-    selectionSort(l, n);
-    
-    for (int i=0; i<n; i++)
-    {
-        cout << l[i] << endl;
-    }
-
-    return 0;
-}
